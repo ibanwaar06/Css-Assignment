@@ -1,0 +1,42 @@
+/* ── Page base ── */
+body {
+    background-color: #f4f4f4;
+}
+
+/* ── Sidebar container ── */
+.sidebar {
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    margin: 40px auto;
+}
+
+/* ── Sidebar title ── */
+#sidebar-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+/* ── Remove default list styling ── */
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* ── Space between list items ── */
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+/* ── Link base styles ── */
+.sidebar ul li a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+/* ── Link hover effect ── */
+.sidebar ul li a:hover {
+    color: red;
+}

@@ -1,0 +1,37 @@
+/* style.css */
+
+/* Requirement 1 — Group Selector for bottom margin */
+h2, p, button {
+    margin-bottom: 10px;
+}
+
+/* Requirement 2 — Button base styles */
+button.btn {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+/* Requirement 3 — Button hover effect */
+button.btn:hover {
+    background-color: red;
+    transform: scale(1.05);
+}
+
+/* Requirement 4 — Input base styles */
+input {
+    border: 1px solid lightgray;
+    padding: 8px;
+}
+
+/* Requirement 5 — Input focus effect */
+input:focus {
+    border-color: blue;
+    outline: none;
+}
+
+/* Requirement 6 — The Catch: override h2 margin using ID */
+#user-name {
+    margin: 0;
+}

@@ -1,0 +1,20 @@
+/*QUESTION1*/
+p {
+    color: blue;
+}
+.highlight {
+    color: orange;
+}
+#main-text {
+    color: red;
+}
+
+/*QUESTION2*/
+#main-text.highlight {
+    color: green;
+}
+
+/*QUESTION3*/
+p.highlight {
+    color: green;
+}
